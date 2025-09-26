@@ -50,7 +50,7 @@ services:
     depends_on: 
       - "postgres"
     ports:
-      - 6000:8080
+      - 8080:8080
     networks:
       - adboard-network
 
