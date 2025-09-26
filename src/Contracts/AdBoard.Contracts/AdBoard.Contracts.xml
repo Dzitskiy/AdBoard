@@ -500,6 +500,11 @@
             Имя пользователя
             </summary>
         </member>
+        <member name="P:AdBoard.Contracts.User.ShortUserDto.Login">
+            <summary>
+            Логин
+            </summary>
+        </member>
         <member name="T:AdBoard.Contracts.User.UpdateUserDto">
             <summary>
             Данные о пользователе для обновления
@@ -523,6 +528,11 @@
         <member name="P:AdBoard.Contracts.User.UserDto.Role">
             <summary>
             Роль
+            </summary>
+        </member>
+        <member name="P:AdBoard.Contracts.User.UserDto.Login">
+            <summary>
+            Логин
             </summary>
         </member>
         <member name="P:AdBoard.Contracts.User.UserDto.Adverts">

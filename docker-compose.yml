@@ -9,7 +9,7 @@ services:
       dockerfile: src/Host/AdBoard.Host.Api/Dockerfile
     restart: always
     ports:
-      - "5000:80"
+      - "5000:8080"
     environment:
       - ConnectionStrings__PostgresAdBoardDb=Server=postgres;Database=adboard;Username=postgres;Password=jsYg59FwKf7H;Port=5432
       - ASPNETCORE_ENVIRONMENT=Development

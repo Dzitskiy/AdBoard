@@ -14,4 +14,9 @@ public class ShortUserDto
     /// Имя пользователя
     /// </summary>
     public string Name { get; set; }
+
+    /// <summary>
+    /// Логин
+    /// </summary>
+    public string Login { get; set; }
 }

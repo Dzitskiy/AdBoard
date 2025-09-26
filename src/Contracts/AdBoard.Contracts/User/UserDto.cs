@@ -21,7 +21,12 @@ public class UserDto
     /// Роль
     /// </summary>
     public string Role { get; set; }
-    
+
+    /// <summary>
+    /// Логин
+    /// </summary>
+    public string Login { get; set; }
+
     /// <summary>
     /// Объявления
     /// </summary>
